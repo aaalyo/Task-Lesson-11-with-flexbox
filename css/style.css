@@ -1,0 +1,84 @@
+body {
+    background-color: rgb(240, 240, 240);
+}
+
+.header {
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray
+}
+
+.list {
+    padding-left: 0px;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.list-item {
+    background-color: white;
+    border: rgb(223, 223, 223) 1px solid;
+    display: flex;
+    justify-content: flex-start;
+    height: 30px;
+    line-height: 30px;
+}
+
+.list-item:nth-of-type(even) {
+    background-color: rgb(230, 230, 230);
+}
+
+.list-item:hover {
+    background-color: rgb(175, 175, 175);
+    cursor: pointer;
+}
+
+label:hover {
+    cursor: pointer;
+}
+
+input:hover {
+    cursor: pointer;
+}
+
+.center-list-item {
+    flex-grow: 1;
+}
+
+.right-list-item {
+    background: red;
+    height: 30px;
+    width: 30px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.right-list-item a {
+    text-decoration: none;
+    color: blue;
+}
+
+.right-list-item:hover {
+    background-color: rgb(255, 166, 166);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.container {
+    background-color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+    padding: 40px;
+}
+
+.button-add input {
+    background-color: green;
+    border: green solid 1px;
+    width: 100px;
+    height: 25px;
+    text-align: center;
+    color: ivory;
+    margin: 20px 20px 20px 0px;
+    border-radius: 5px;
+}
